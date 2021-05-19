@@ -10,14 +10,14 @@ This repo is divided into 5 projects for the following case studies:
  - Case Studies 2 & 3: folder name *cs-two-three*
  - Case Study 4: folder name *cs-four*
  - Case Study 5: folder name *cs-five-redux-app*
- - Case Study 6: ~~haven't got a chance to do it yet~~
+ - Case Study 6: ~~haven't got a chance to do it yet, will update once I do~~
  - Case Study 7: folder name *cs-seven*
 
 ---
 
 ## Init
 
-All projects, except *cs-five-redux-app* were bootstraped using **create-react-app**. Command line for creating the react app (as an example for *cs-one*:
+All projects, except *cs-five-redux-app* were bootstraped using **create-react-app**. Command line for creating the react app (as an example for *cs-one*):
 
 `npx create-react-app cs-one`
 
@@ -36,7 +36,6 @@ The projects require the following packages (check out the links to the project 
  - [react-router-dom ](https://reactrouter.com/web/guides/quick-start)
  - [react-icons](https://react-icons.github.io/react-icons/)
  - [jest](https://jestjs.io/)
- - [react-select](https://react-select.com/home)
  
 ### Auto install
 
@@ -50,15 +49,11 @@ In case, there are still any issue with packages after auto-installing the packa
 
 `npm install react react-redux @reduxjs/toolkit react-router-dom react-icons`
 
+And,
+
 `npm install --save-dev jest`
 
 *(using `--save-dev` since the unit testing is only applicable for dev)*
-
-And, 
-
-`npm install react-select` 
-
-*(although I haven't really got a chance to make use of it)*
 
 ---
 
@@ -68,7 +63,7 @@ To run a project, from the terminal go to its folder and run:
 
 `npm start`
 
-To run jest all test scripts/suites in project *cs-seven*, from the terminal go to folder *cs-seven* and run:
+To run jest for all test scripts/suites in project *cs-seven*, from the terminal go to folder *cs-seven* and run:
 
 `jest`
 
@@ -78,6 +73,6 @@ To run a specific test script/suite (e.g. `scriptLivenessCheck.test.js`), from t
 ---
 
 
-*Feel free to clone this repo or if you have suggestions, fork and send me a PR.*
+*Feel free to clone/fork this repo and let me know if you have any suggestions.*
 
 **ARKOPAL BHATTACHARYA** 2021
